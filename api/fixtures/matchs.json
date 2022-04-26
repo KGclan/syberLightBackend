@@ -1,0 +1,242 @@
+[
+    { "model": "api.Match",
+        "pk": 1,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "11:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 2,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "12:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 3,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "13:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 4,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "14:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 5,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "15:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 6,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "16:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 7,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "17:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 8,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "18:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 9,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "19:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 10,
+        "fields": {
+            "date": "2023-04-26",
+            "time": "20:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 11,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "21:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 12,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "22:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 13,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "23:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 14,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "11:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 15,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "12:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 16,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "13:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 17,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "14:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 18,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "15:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 19,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "16:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    },
+    { "model": "api.Match",
+        "pk": 20,
+        "fields": {
+            "date": "2023-04-27",
+            "time": "17:00:00",
+            "game": 1,
+            "teams": [
+                1,
+                2
+            ]
+        }
+    }
+]

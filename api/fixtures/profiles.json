@@ -1,0 +1,112 @@
+[
+    { "model": "api.Profile",
+        "pk": 1,
+        "fields": {
+            "nickname": "KGclan",
+            "about_me": "I'm KGclan. This site - its my project. This is fine.",
+            "user": 1,
+            "game": 1,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 2,
+        "fields": {
+            "nickname": "TamikGG",
+            "about_me": "I'm TamikGG. This site - its my project. This is fine.",
+            "user": 2,
+            "game": 2,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 3,
+        "fields": {
+            "nickname": "Kijey",
+            "about_me": "I'm Kijey. This site - its my project. This is fine.",
+            "user": 3,
+            "game": 3,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 4,
+        "fields": {
+            "nickname": "Denchik",
+            "about_me": "I'm Denchik. This site - its my project. This is fine.",
+            "user": 4,
+            "game": 4,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 5,
+        "fields": {
+            "nickname": "DjonnyGray",
+            "about_me": "I'm DjonnyGray. This site - its my project. This is fine.",
+            "user": 5,
+            "game": 5,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 6,
+        "fields": {
+            "nickname": "Programmer",
+            "about_me": "I'm Programmer. This site - its my project. This is fine.",
+            "user": 6,
+            "game": 6,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 7,
+        "fields": {
+            "nickname": "ProgrammerDef",
+            "about_me": "I'm ProgrammerDef. This site - its my project. This is fine.",
+            "user": 7,
+            "game": 7,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 8,
+        "fields": {
+            "nickname": "Qwertyuy",
+            "about_me": "I'm Qwertyuy. This site - its my project. This is fine.",
+            "user": 8,
+            "game": 7,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 9,
+        "fields": {
+            "nickname": "Django",
+            "about_me": "I'm Django. This site - its my project. This is fine.",
+            "user": 9,
+            "game": 7,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    },
+    { "model": "api.Profile",
+        "pk": 10,
+        "fields": {
+            "nickname": "React",
+            "about_me": "I'm React. This site - its my project. This is fine.",
+            "user": 10,
+            "game": 7,
+            "image": "../media/defaultUser.png",
+            "rating": "10000 mmr"
+        }
+    }
+]

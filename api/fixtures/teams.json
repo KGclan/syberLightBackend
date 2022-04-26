@@ -1,0 +1,28 @@
+[
+    { "model": "api.Team",
+        "pk": 1,
+        "fields": {
+            "title": "NAVI",
+            "description": "Natus Vincere (NAVI (ранее использовалось сокращение Na`Vi[1]); Рождённые побеждать) — украинская мультигейминговая киберспортивная организация. В настоящее время имеет подразделения (составы) по CS:GO, Dota 2, PUBG (и PUBG Mobile), Apex Legends, Rainbow Six Siege, Quake Champions, Valorant, Brawl Stars, Wild Rift и Garena Free Fire, а также контент-креатора по Call of Duty: Warzone.",
+            "players": [1,2,3,4,5],
+            "games": [1,2,3,4,5,6,7],
+            "logo": "../media/defaultTeam.png",
+            "captain": 1,
+            "win": 10,
+            "lose": 1
+        }
+    },
+    { "model": "api.Team",
+        "pk": 2,
+        "fields": {
+            "title": "KGClan",
+            "description": "KGClan (NAVI (ранее использовалось сокращение Na`Vi[1]); Рождённые побеждать) — украинская мультигейминговая киберспортивная организация. В настоящее время имеет подразделения (составы) по CS:GO, Dota 2, PUBG (и PUBG Mobile), Apex Legends, Rainbow Six Siege, Quake Champions, Valorant, Brawl Stars, Wild Rift и Garena Free Fire, а также контент-креатора по Call of Duty: Warzone.",
+            "players": [6,7,8,9,10],
+            "games": [1,2,3,4,5,6,7],
+            "logo": "../media/defaultTeam.png",
+            "captain": 6,
+            "win": 5,
+            "lose": 5
+        }
+    }
+]
