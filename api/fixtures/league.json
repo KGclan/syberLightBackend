@@ -1,0 +1,16 @@
+[
+    { 
+        "model": "api.League",
+        "pk": 1,
+        "fields": {
+            "league": "Детская лига"
+        }
+    },
+    { 
+        "model": "api.League",
+        "pk": 2,
+        "fields": {
+            "league": "Основная лига"
+        }
+    }
+]

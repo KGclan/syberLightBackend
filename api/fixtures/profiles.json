@@ -5,9 +5,17 @@
             "nickname": "KGclan",
             "about_me": "I'm KGclan. This site - its my project. This is fine.",
             "user": 1,
+            "league": 1,
             "game": 1,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 18,
+            "win": 1,
+            "lose": 0,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -16,9 +24,17 @@
             "nickname": "TamikGG",
             "about_me": "I'm TamikGG. This site - its my project. This is fine.",
             "user": 2,
+            "league": 1,
             "game": 2,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 19,
+            "win": 2,
+            "lose": 1,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -27,9 +43,17 @@
             "nickname": "Kijey",
             "about_me": "I'm Kijey. This site - its my project. This is fine.",
             "user": 3,
+            "league": 1,
             "game": 3,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 20,
+            "win": 3,
+            "lose": 1,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -38,9 +62,17 @@
             "nickname": "Denchik",
             "about_me": "I'm Denchik. This site - its my project. This is fine.",
             "user": 4,
+            "league": 1,
             "game": 4,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 21,
+            "win": 4,
+            "lose": 2,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -49,9 +81,17 @@
             "nickname": "DjonnyGray",
             "about_me": "I'm DjonnyGray. This site - its my project. This is fine.",
             "user": 5,
+            "league": 1,
             "game": 5,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 22,
+            "win": 5,
+            "lose": 2,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -60,9 +100,17 @@
             "nickname": "Programmer",
             "about_me": "I'm Programmer. This site - its my project. This is fine.",
             "user": 6,
+            "league": 1,
             "game": 6,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 23,
+            "win": 10,
+            "lose": 3,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -71,9 +119,17 @@
             "nickname": "ProgrammerDef",
             "about_me": "I'm ProgrammerDef. This site - its my project. This is fine.",
             "user": 7,
+            "league": 1,
             "game": 7,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 25,
+            "win": 20,
+            "lose": 5,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -82,9 +138,17 @@
             "nickname": "Qwertyuy",
             "about_me": "I'm Qwertyuy. This site - its my project. This is fine.",
             "user": 8,
+            "league": 1,
             "game": 7,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 27,
+            "win": 1,
+            "lose": 5,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -93,9 +157,17 @@
             "nickname": "Django",
             "about_me": "I'm Django. This site - its my project. This is fine.",
             "user": 9,
+            "league": 1,
             "game": 7,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 28,
+            "win": 18,
+            "lose": 6,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     },
     { "model": "api.Profile",
@@ -104,9 +176,17 @@
             "nickname": "React",
             "about_me": "I'm React. This site - its my project. This is fine.",
             "user": 10,
+            "league": 1,
             "game": 7,
             "image": "../media/defaultUser.png",
-            "rating": "10000 mmr"
+            "rating": "10000 mmr",
+            "status": 1,
+            "age": 20,
+            "win": 15,
+            "lose": 4,
+            "phone": "89525801328",
+            "email": "example@mail.ru",
+            "vk": "https://vk.com/"
         }
     }
 ]

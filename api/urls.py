@@ -16,6 +16,9 @@ urlpatterns = [
     path('teams/<int:pk>/', views.TeamDetail.as_view()),
 
     path('matchs/', views.MatchList.as_view()),
+
+    path('news/', views.NewsList.as_view()),
+    path('news/<int:pk>/', views.NewsDetailed.as_view()),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

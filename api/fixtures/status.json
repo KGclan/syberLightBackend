@@ -1,0 +1,14 @@
+[
+    { "model": "api.Status",
+        "pk": 1,
+        "fields": {
+            "status": "Игрок"
+        }
+    },
+    { "model": "api.Status",
+        "pk": 2,
+        "fields": {
+            "status": "Пользователь"
+        }
+    }
+]
