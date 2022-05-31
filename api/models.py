@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.html import mark_safe
 
 class Game(models.Model): 
     id = models.AutoField(primary_key=True)
@@ -7,6 +8,9 @@ class Game(models.Model):
     title = models.CharField(max_length=100, blank=False, verbose_name='Название')
     description = models.TextField(blank=False, verbose_name='Описание')
     logo = models.ImageField(verbose_name='Логотип')
+
+    def image_tag(self):
+        return mark_safe('<img src="/directory/%s" width="auto" height="65px" />' % (self.logo))
 
     class Meta:
         verbose_name = 'Игра'
@@ -22,6 +26,9 @@ class League(models.Model):
     class Meta:
         verbose_name = 'Лига'
         verbose_name_plural = 'Лиги'
+    
+    def __str__(self):
+        return self.league
 
 class Status(models.Model):
     id = models.AutoField(primary_key=True)
@@ -30,6 +37,9 @@ class Status(models.Model):
     class Meta:
         verbose_name = 'Статус пользователя'
         verbose_name_plural = 'Статусы пользователей'
+    
+    def __str__(self):
+        return self.status
 
 class Profile(models.Model):
     id = models.AutoField(primary_key=True)
@@ -97,7 +107,8 @@ class News(models.Model):
     id = models.AutoField(primary_key=True)
     date = models.DateField(auto_now_add=True, verbose_name='Дата публикации')
     title = models.CharField(max_length=100, verbose_name='Заголовок')
-    body = models.CharField(max_length=3000, verbose_name='Новость')
+    body = models.TextField(max_length=3000, verbose_name='Новость')
+    image = models.ImageField()
 
     class Meta:
         verbose_name = 'Новость'
@@ -106,6 +117,43 @@ class News(models.Model):
     def __str__(self):
         return self.title
 
+class ApplicationForProfile(models.Model):
+    id = models.AutoField(primary_key=True)
+    email = models.CharField(max_length=50, verbose_name='Почта')
+    logo = models.ImageField(verbose_name='Аватар')
+    phone = models.CharField(max_length=11, verbose_name='Номер телефона')
+    rating = models.CharField(max_length=30, verbose_name='Рейтинг игрока')
+    age = models.IntegerField(verbose_name='Возраст')
+    game = models.CharField(max_length=100, verbose_name='Игра')
+    about_me = models.TextField(max_length=2000, verbose_name='О себе')
+    league = models.CharField(max_length=200, verbose_name='Лига')
+    player = models.BooleanField(verbose_name='Статус')
+    nickname = models.CharField(max_length=30, verbose_name='Никнэйм')
+    document = models.ImageField(verbose_name='Документ удостоверяющий личность')
+
+    class Meta:
+        verbose_name = 'Заявка на создание профиля'
+        verbose_name_plural = 'Заявки на создание профиля'
+    
+    def __str__(self):
+        return self.id
+
+class ApplicationForTraining(models.Model):
+    id = models.AutoField(primary_key=True)
+    date = models.DateField(verbose_name='Дата тренировки')
+    start = models.TimeField(verbose_name='Начало')
+    finish = models.TimeField(verbose_name='Окончание')
+    name = models.CharField(max_length=150, verbose_name='ФИО')
+    phone = models.CharField(max_length=11, verbose_name='Номер телефона')
+    email = models.CharField(max_length=50, verbose_name='Почта')
+    game = models.CharField(max_length=50, verbose_name='Игра')
+
+    class Meta:
+        verbose_name = 'Заявка на прохождение тренировки'
+        verbose_name_plural = 'Заявки на прохождение тренировки'
+    
+    def __str__(self):
+        return self.id
 
 
 
